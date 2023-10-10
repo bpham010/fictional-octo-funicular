@@ -20,6 +20,7 @@ Bonds$Total_votes <- votessum
 
 # Finding Max votes
 max(Bonds$Total_votes)
+min(Bonds$Total_votes)
 
 # Finding which county had the most votes and for what purpose
 Bonds[Bonds$Total_votes == max(Bonds$Total_votes),]
@@ -44,7 +45,7 @@ passHighVoterTurnout$Ratio <- ratioForBond
 hist(passHighVoterTurnout$Ratio,
      main = "Percentage of Votes for the Bond",
      xlab = "Ratio of votes for the bond",
-     col = c("#b3e2cd","#fdcdac", "#cbd5e8"),
+     col = c("aquamarine","lavender", "grey"),
      )
 
 # Information about the data
