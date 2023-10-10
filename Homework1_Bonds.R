@@ -1,6 +1,7 @@
 # The Homework1_Bonds.csv is imported as "Bonds"
 Bonds <- read.csv("Homework1_Bond.csv")
-
+CALEB WAS HERE
+^^^^^
 # --- Problem 1 --- #
 
 # Calculates the total results for the bond
